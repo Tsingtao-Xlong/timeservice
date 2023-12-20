@@ -12,6 +12,6 @@
 
 或者一键安装
 ```shell
-composer require myld.cn/timeservice
+composer require tsingtao-xlong/timeservice
 ```
 
