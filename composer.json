@@ -1,0 +1,23 @@
+{
+    "name": "myld.cn/timeservice",
+    "description": "时间生产",
+    "homepage": "https://gitee.com/tsingtao_xlong/timeserver",
+    "keywords": ["time","timeservice"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dylan",
+            "email": "215915872@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Times\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

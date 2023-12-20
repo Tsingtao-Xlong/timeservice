@@ -1,2 +1,0 @@
-# timeservice
-timeservice test
