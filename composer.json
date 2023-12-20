@@ -1,12 +1,12 @@
 {
-    "name": "myld.cn/timeservice",
+    "name": "Tsingtao-Xlong/timeservice",
     "description": "时间生产",
     "homepage": "https://gitee.com/tsingtao_xlong/timeserver",
     "keywords": ["time","timeservice"],
     "type": "library",
     "authors": [
         {
-            "name": "Dylan",
+            "name": "Tsingtao-Xlong",
             "email": "215915872@qq.com"
         }
     ],
