@@ -1,7 +1,7 @@
 {
     "name": "tsingtao-xlong/timeservice",
     "description": "时间生产",
-    "homepage": "https://gitee.com/tsingtao_xlong/timeserver",
+    "homepage": "https://github.com/Tsingtao-Xlong/timeservice",
     "keywords": ["time","timeservice"],
     "type": "library",
     "authors": [

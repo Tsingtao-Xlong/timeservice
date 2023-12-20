@@ -4,7 +4,7 @@
 
 ## 版本及要求
 - composer 2+
-- php 8+
+- "php": ">=7.1"
 - laravel 8+
 
 
@@ -12,6 +12,6 @@
 
 或者一键安装
 ```shell
-composer install
+composer require myld.cn/timeservice
 ```
 
