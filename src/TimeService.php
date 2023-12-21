@@ -248,8 +248,27 @@ class TimeService
         for ($i = 0; $i < $days; $i++) {
             $date[] = date('Y-m-d', $start_times_tamp + (86400 * $i));
         }
-
         return $date;
     }
 
+    // 小时
+
+    /**
+     * Desc: 小时列表
+     * @param $start
+     * @param $end
+     * @return array
+     */
+    public static function getHours($start, $end)
+    {
+        $list = [];
+        for ($i = $start; $i <= $end; $i++) {
+            if ($i <= 9) {
+                $list[] = '0' . $i . ':00';
+            } else {
+                $list[] = $i . ':00';
+            }
+        }
+        return $list;
+    }
 }
